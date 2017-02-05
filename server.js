@@ -93,7 +93,7 @@ app.get('/:articleName', function (req, res) {
     //article[articleName] == {}conten object for article one
     var articleName = req.param.articleName;//help in extracting the srticle name
     
-    res.send(createTemplate(article[articleName]));
+    res.send(createTemplate(articles[articleName]));
 });
 
 
