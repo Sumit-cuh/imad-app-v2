@@ -25,15 +25,12 @@ function createTemplate(data){
     var heading=data.heading;
     var content=data.content;
     
-    var htmltemplate=
-        `
+    var htmlTemplate= `
         <!DOCTYPE html>
         <head>
-            <title>${title}i</title>
+            <title>${title}
+            </title>
             <meta name="viewport" content="width-device-width, initial-scale=1" />
-            <style>
-                
-            </style>
             <link href="/ui/style.css" rel="stylesheet" />
         </head>
         <body>
