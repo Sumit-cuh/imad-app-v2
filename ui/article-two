@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <head>
+        <title>Article Second | Sumit khichi</title>
+    </head>
+    <body>
+        <div>
+            <a href="/">Home</a>
+        </div>    
+        <h3>
+            Article One
+        </h3>
+        <div>
+            <p>
+                This is the content for my second web app
+            </p>
+            <p>
+                Welcome to  my new web app page. How are you feeling today?
+            </p>
+        </div>
+    </body>
+</html>
