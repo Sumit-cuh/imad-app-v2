@@ -91,7 +91,7 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/:articleName', function (req, res) {
     //articleName == article-one
     //article[articleName] == {}conten object for article one
-    var articleName = req.param.articleName;//help in extracting the srticle name
+    var articleName = req.params.articleName;//help in extracting the srticle name
     
     res.send(createTemplate(articles[articleName]));
 });
